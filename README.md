@@ -21,14 +21,14 @@ The original purpose for this plugin was to interface a WooCommerce installation
   3. Capture card information (credit card info authorized at time of order, captured when order has shipped)
   
 What You'll Need To Customize
-_____________________________
+-----------------------------
   
   * FTP information- the plugin has a settings page for these fields - could use improved security
   * Depending on the format of the XML file you'd like to import, you may need to customize the code that handles the import. The plugin currently uses the SimpleXML class to import the XML file to an object.
   * The current credit card capture will need to be customized depending on your needs and your payment gateway (currently set up to work with Intuit's payment gateway)
   
 Setup
-_____
+-----
 
   1. Install the plugin
   2. Activate the plugin
@@ -36,7 +36,7 @@ _____
   4. As XML files are added to your FTP server, the plugin will update orders accordingly
   
 Examples
-________
+--------
 
   * Example XML file:
   
