@@ -2,7 +2,7 @@ woocommerce-xml-shipping-importer
 =================================
 
 Intro
-_____
+-----
 
 This WordPress plugin was designed to fulfill a specific purpose, but may be useful to others. Major code modifications may be required to fit the plugin to your needs.
 
