@@ -44,7 +44,6 @@ if ( !class_exists( 'XML_Shipping_Importer_Options' ) ) {
 
             ?>
             <div class="wrap">
-                <?php screen_icon(); ?>
                 <h2>XML Shipping Importer</h2>           
                 <form method="post" action="options.php">
                 <?php

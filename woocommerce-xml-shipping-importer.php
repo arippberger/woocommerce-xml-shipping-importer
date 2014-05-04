@@ -182,6 +182,10 @@ if ( !class_exists( 'WCXMLShippingInput' ) ) {
 								//update order status
 								$order->update_status( 'completed', 'Order Shipped'  );
 
+								//capture order credit card info
+								$payment_gateway = new SV_WC_Payment_Gateway_Plugin();
+								$payment_gateway->maybe_capture_charge( $order );								
+
 								//add order note
 								$order->add_order_note($order_shipped_note, 0  );
 
