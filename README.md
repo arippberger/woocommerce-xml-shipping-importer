@@ -38,18 +38,4 @@ Setup
 Examples
 --------
 
-  * Example XML file:
-  
-<?xml version="1.0"?>
-<shipments>
-  <shipment>
-    <ordernumber>4914        </ordernumber>
-    <trackingnumber>910045330277249               </trackingnumber>
-    <carrier>FG  </carrier>
-  </shipment>
-  <shipment>
-    <ordernumber>4920        </ordernumber>
-    <trackingnumber>910045330277249               </trackingnumber>
-    <carrier>FG  </carrier>
-  </shipment>  
-</shipments>
+  * Example XML file included in repo as example.xml
