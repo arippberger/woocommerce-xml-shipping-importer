@@ -38,4 +38,6 @@ Setup
 Examples
 --------
 
-  * Example XML file included in repo as example.xml
+  * Example XML file included in repo as example.xml - this is the file that your distribution center would place on their FTP server
+  
+
