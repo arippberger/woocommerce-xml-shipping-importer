@@ -11,9 +11,9 @@ Original Purpose
 
 The original purpose for this plugin was to interface a WooCommerce installation with a distribution center's order processing.
   
-  * Distribution center had an FTP server set up 
-  * Distribution center requested an XML file of orders be uploaded to their FTP server (WooCommerce Customer/Order XML Export Suite was used for this process - http://www.woothemes.com/products/customerorder-xml-export-suite/ )
-  * Distribution center would upload an XML file of completed orders to their FTP server. This file included 1) WooCommerce Order Number 2) Tracking number 3) Shipping Carrier Name
+  * Distribution / fulfillment center had an FTP server set up 
+  * Distribution / fulfillment center requested an XML file of orders be uploaded to their FTP server (WooCommerce Customer/Order XML Export Suite was used for this process - http://www.woothemes.com/products/customerorder-xml-export-suite/ )
+  * Distribution / fulfillment center would upload an XML file of completed orders to their FTP server. This file included 1) WooCommerce Order Number 2) Tracking number 3) Shipping Carrier Name
   * This plugin was designed to process to completed orders:
   
   1. Add tracking number and carrier information to order as meta data
